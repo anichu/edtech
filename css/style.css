@@ -3,3 +3,47 @@ body {
 	font-family: "Poppins", sans-serif;
 	background-color: #fff;
 }
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.button-color-blue {
+	background-color: #289bde;
+	border: 1px solid #289bde;
+}
+
+.bg-opacity {
+	background-color: #289bde !important;
+}
+
+@media only screen and (max-width: 992px) {
+	.carousel-item img {
+		height: 500px !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.carousel-caption {
+		top: 40%;
+		transform: translateY(-40%);
+	}
+	.carousel-item img {
+		height: 400px !important;
+	}
+	.caption-text {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.carousel-item img {
+		height: 300px !important;
+	}
+	.caption-text {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
