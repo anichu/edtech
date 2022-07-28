@@ -78,3 +78,9 @@ body {
 		display: none;
 	}
 }
+
+@media only screen and (max-width: 300px) {
+	.res-header {
+		font-size: 20px !important;
+	}
+}
