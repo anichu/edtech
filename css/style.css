@@ -18,6 +18,10 @@ body {
 	background-color: #289bde !important;
 }
 
+.price-color {
+	color: #289bde;
+}
+
 @media only screen and (max-width: 992px) {
 	.carousel-item img {
 		height: 500px !important;
@@ -34,6 +38,15 @@ body {
 	}
 	.caption-text {
 		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.course-img-box {
+		width: 100%;
+	}
+	.course-img {
+		width: 100% !important;
 	}
 }
 
