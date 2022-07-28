@@ -9,19 +9,6 @@ body {
 	transform: translateY(-50%);
 }
 
-.button-color-blue {
-	background-color: #289bde;
-	border: 1px solid #289bde;
-}
-
-.bg-opacity {
-	background-color: #289bde !important;
-}
-
-.price-color {
-	color: rgb(40, 155, 222);
-}
-
 .badge-right {
 	top: 50% !important;
 	transform: translateY(-50%) !important;
@@ -78,5 +65,14 @@ body {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.footer-br {
+		display: none;
+	}
+	.student-br {
+		display: none;
 	}
 }
