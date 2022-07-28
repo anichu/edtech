@@ -2,7 +2,6 @@
 body {
 	font-family: "Poppins", sans-serif;
 	background-color: #fff;
-	overflow: scroll;
 }
 
 .carousel-caption {
@@ -30,6 +29,17 @@ body {
 
 .badge-left {
 	background-color: rgba(40, 155, 222, 0.5) !important;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+.social-link i {
+	font-size: 20px !important;
+}
+
+.footer-link {
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 992px) {
